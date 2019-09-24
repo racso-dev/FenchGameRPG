@@ -7,7 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		7686E65E22D547030011FB04 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7686E65D22D547030011FB04 /* main.swift */; };
+		7686E65E22D547030011FB04 /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7686E65D22D547030011FB04 /* Game.swift */; };
+		76B0A89E22D5475200C6BFF4 /* Hero.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76B0A89D22D5475200C6BFF4 /* Hero.swift */; };
+		76B0A8A022D5476D00C6BFF4 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76B0A89F22D5476D00C6BFF4 /* Player.swift */; };
+		76B0A8A722D8FA4700C6BFF4 /* Dragon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76B0A8A622D8FA4700C6BFF4 /* Dragon.swift */; };
+		76B0A8A922D8FA7100C6BFF4 /* Knight.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76B0A8A822D8FA7100C6BFF4 /* Knight.swift */; };
+		76B0A8AD22D8FAC600C6BFF4 /* Healer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76B0A8AC22D8FAC600C6BFF4 /* Healer.swift */; };
+		76E97DAB22DE7205002BDDA2 /* Weapon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76E97DAA22DE7205002BDDA2 /* Weapon.swift */; };
+		76ED558722F0AC9400F72FF0 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76ED558622F0AC9400F72FF0 /* main.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,7 +31,14 @@
 
 /* Begin PBXFileReference section */
 		7686E65A22D547030011FB04 /* FrenchGame RPG */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "FrenchGame RPG"; sourceTree = BUILT_PRODUCTS_DIR; };
-		7686E65D22D547030011FB04 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		7686E65D22D547030011FB04 /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
+		76B0A89D22D5475200C6BFF4 /* Hero.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hero.swift; sourceTree = "<group>"; };
+		76B0A89F22D5476D00C6BFF4 /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		76B0A8A622D8FA4700C6BFF4 /* Dragon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dragon.swift; sourceTree = "<group>"; };
+		76B0A8A822D8FA7100C6BFF4 /* Knight.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Knight.swift; sourceTree = "<group>"; };
+		76B0A8AC22D8FAC600C6BFF4 /* Healer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Healer.swift; sourceTree = "<group>"; };
+		76E97DAA22DE7205002BDDA2 /* Weapon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Weapon.swift; sourceTree = "<group>"; };
+		76ED558622F0AC9400F72FF0 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +71,14 @@
 		7686E65C22D547030011FB04 /* FrenchGame RPG */ = {
 			isa = PBXGroup;
 			children = (
-				7686E65D22D547030011FB04 /* main.swift */,
+				7686E65D22D547030011FB04 /* Game.swift */,
+				76B0A89D22D5475200C6BFF4 /* Hero.swift */,
+				76B0A89F22D5476D00C6BFF4 /* Player.swift */,
+				76B0A8A622D8FA4700C6BFF4 /* Dragon.swift */,
+				76B0A8A822D8FA7100C6BFF4 /* Knight.swift */,
+				76B0A8AC22D8FAC600C6BFF4 /* Healer.swift */,
+				76E97DAA22DE7205002BDDA2 /* Weapon.swift */,
+				76ED558622F0AC9400F72FF0 /* main.swift */,
 			);
 			path = "FrenchGame RPG";
 			sourceTree = "<group>";
@@ -103,6 +124,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = 7686E65122D547030011FB04;
 			productRefGroup = 7686E65B22D547030011FB04 /* Products */;
@@ -119,7 +141,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7686E65E22D547030011FB04 /* main.swift in Sources */,
+				76B0A8AD22D8FAC600C6BFF4 /* Healer.swift in Sources */,
+				76E97DAB22DE7205002BDDA2 /* Weapon.swift in Sources */,
+				76ED558722F0AC9400F72FF0 /* main.swift in Sources */,
+				7686E65E22D547030011FB04 /* Game.swift in Sources */,
+				76B0A89E22D5475200C6BFF4 /* Hero.swift in Sources */,
+				76B0A8A922D8FA7100C6BFF4 /* Knight.swift in Sources */,
+				76B0A8A722D8FA4700C6BFF4 /* Dragon.swift in Sources */,
+				76B0A8A022D5476D00C6BFF4 /* Player.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
